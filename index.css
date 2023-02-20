@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+.root{
+    background-image: url("https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221134705/Romantic-beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 97.5vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cookies_desc{
+    text-align: justify;
+    margin: 5px 15px;
+    color: black;
+    font-size: 15px;
+}
+.alert{
+    height: 250px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+}
+.content_desc{
+    color: white;
+    font-size: 18px;
+    margin: 0px 25px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    padding-top: 25px;
+    color: white;
+    font-size: 18px;
+    margin: 0px 25px;
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: #24a0ed;
+    border: none;
+    border-radius: 2%;
+    font-size: 14px;
+    color: black;
+}
+.heading{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.guide{
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}

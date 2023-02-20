@@ -1,0 +1,29 @@
+.root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BFACE2;
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: #FEFBE9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.video{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #BFACE2;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.overlayText{
+  position:absolute;
+  z-index:1;
+}

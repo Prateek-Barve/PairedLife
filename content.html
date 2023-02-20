@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek Barve</title>
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <div class="root">
+        <div class="container">
+            <video onclick="myFunction()" controls class="video" height="580" width="720" src="bb.mp4" poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzT4sOoIEzfVSBb2YDClmBKryp_RExC3Ax6EqlvA4BWQ&usqp=CAU&ec=48600112">
+                <source src="bb.mp4" type="video/mp4">
+                <source src="bb.ogg" type="video/ogg">
+            </video>
+            <div class="overlayText">
+                <p id="topText"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          document.getElementById("topText").innerHTML = "Hehe LOL!";
+          document.getElementById("topText").style.color = "white";
+          document.getElementById("topText").style.fontSize = "25px";
+        }
+        </script>
+</body>
+<footer class="footer">Made with &#129505; by Prateek Barve</footer>
+</html>
+
